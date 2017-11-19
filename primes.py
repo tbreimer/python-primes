@@ -32,6 +32,13 @@ def isPrime(num):
 
 def isPrimeArray(start, end):
     primes = []
+
+    if (end < start):
+        oldStart = start
+        oldEnd = end
+
+        start = oldEnd
+        end = oldStart
     
     for x in range(start, end+1):
         value = isPrime(x)
@@ -40,11 +47,13 @@ def isPrimeArray(start, end):
 
     return primes
 
-print(isPrimeArray(2000, 3000))
 
 
 
 
+
+
+            
 
             
 
