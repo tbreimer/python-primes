@@ -7,7 +7,7 @@ Paramter: An integer
 Return: True if prime, False if composite
 
 # isPrimeArray()
-Parameters: Two integers, the first smaller than the second
+Parameters: Two integers
 
 Return: An array containing all the prime numbers between the parameters (both are inclusive)
 
