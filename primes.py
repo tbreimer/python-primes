@@ -8,7 +8,7 @@ import math
 def isPrime(num):
     factors = 0
 
-    if (num == 1):
+    if (num == 1 or num == 0):
         return False
 
     if (num < 4):
@@ -47,13 +47,12 @@ def isPrimeArray(start, end):
 
     return primes
 
+print(isPrimeArray(0, 100000))
 
 
 
 
 
-
-            
 
             
 
